@@ -1,0 +1,34 @@
+{
+
+    "manifest_version": 2,
+    "name": "RDA UT",
+    "version": "1.0",
+    "description": "DIreccionamiento a iframe Desarrollador: Jhon Martinez",
+    "author": "Jhon Alexander MB",
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "browser_action": {
+        "default_icon": "icon48.png",
+        "default_popup": "index.html"
+
+    },
+
+    "background": {
+        "scripts": ["eventos.js"],
+
+        "persistent": true
+    },
+
+    "options_page": "",
+
+    "permissions": [
+        "tabs",
+        "https://ingenieriadenegocios.000webhostapp.com/*",
+        "storage",
+        "https://www.google.com.co/*"
+    ]
+
+}
